@@ -60,12 +60,7 @@ with sr.Microphone() as source:
                             playsound.playsound('sorry_please.mp3',True)
                     except:
                         print("Sorry ask again")
-                        playsound.playsound('sorry_ask.mp3',True)
-
-                  
-                   
-
-                    
+                        playsound.playsound('sorry_ask.mp3',True)            
 
             elif text == "the old man" or text == "old man":
                 print("The old man")
@@ -199,10 +194,6 @@ with sr.Microphone() as source:
                     except:
                         print("Sorry ask again")
                         playsound.playsound('sorry_ask.mp3',True)
-                            
-                        
-
-                    
 
             else:
                 print("Sorry not in the list")
@@ -211,6 +202,3 @@ with sr.Microphone() as source:
         except:
             print("Sorry could not recognize")
             playsound.playsound('sorry_recog.mp3',True)
-            
-    
-    
